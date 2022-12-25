@@ -8,7 +8,7 @@ import fetch from 'node-fetch';
 app.use(express.json())
 app.use(cors())
 
-mongoose.connect("mongodb://localhost:27017/details", () => {
+mongoose.connect("mongodb+srv://user:sahidjamal@ecommerce.qxk5j1r.mongodb.net/?retryWrites=true&w=majority", () => {
     console.log("mongoDB connected");
 })
 
